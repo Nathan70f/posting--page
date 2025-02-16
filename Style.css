@@ -1,0 +1,42 @@
+            * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui;
+            margin: 0;
+            padding: 20px;
+            background-color:#FFFFFF;
+        }
+        main {
+            max-width: 600px;
+            margin: auto;
+            background: #A2F3FF;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(85, 235, 87, 1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, textarea, button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        h2, p {
+            margin-top: 20px;
+        }
+        #postForm {
+          background-color: rgba(#77FFA1)
+        }
